@@ -2,22 +2,22 @@ import uuidv1 from 'uuid/v1';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
+  title: 'Cloud Architect', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
   description: '', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
+  title: 'Hi, my name is',
+  name: 'Victor M',
+  subtitle: 'AWS Professional Architect',
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'profile.jpeg',
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
@@ -28,30 +28,23 @@ export const aboutData = {
 export const projectsData = [
   {
     id: uuidv1(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'holisfy.png',
+    title: 'Holisfy',
+    info: 'A Platform made for Independent Healthcare Professionals',
+    info2: 'Holisfy will provide you the knowledge-based tools to help your patients holistically',
+    tags: '#aws #cognito  #amplify #appsync #graphql #elasticsearch #react',
+    url: 'https://holisfy.com',
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'inflybo.png',
+    title: 'Inflybo',
+    info: 'A Platform made for VIP lounges management',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: uuidv1(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    tags: '#aws #cognito #amplify #appsync #graphql #react',
+    url: 'https://inflybo.com',
+    repo: '', // if no repo, the button will not show up
   },
 ];
 
@@ -59,7 +52,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'eaashub@gmail.com',
 };
 
 // FOOTER DATA
@@ -68,27 +61,22 @@ export const footerData = {
     {
       id: uuidv1(),
       name: 'twitter',
-      url: '',
-    },
-    {
-      id: uuidv1(),
-      name: 'codepen',
-      url: '',
+      url: 'https://twitter.com/_vgmartinez',
     },
     {
       id: uuidv1(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/vgmartinez/',
     },
     {
       id: uuidv1(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/vgmartinez',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
