@@ -9,19 +9,21 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
+  img: 'banner.png',
   title: 'Hi, my name is',
   name: 'Victor M',
-  subtitle: 'AWS Professional Architect',
+  subtitle: 'AWS Consultant',
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpeg',
-  paragraphOne: '',
+  img: 'profile.png',
+  paragraphOne:
+    "I'm a Certified AWS Professional Architect specialized in designing and implementing complex Big Data & IoT solutions for different type of industries such as banking, pharma and analytics companies. These solutions are developed using the latest technologies in the market, e.g. AWS, Azure, Apache Spark, Docker, Ansible, Terraform.",
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: 'https://www.linkedin.com/in/vgmartinez/',
 };
 
 // PROJECTS DATA
