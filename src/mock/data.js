@@ -9,7 +9,6 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  img: 'banner.png',
   title: 'Hi, my name is',
   name: 'Victor M',
   subtitle: 'AWS Consultant',
