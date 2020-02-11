@@ -2,7 +2,7 @@ import uuidv1 from 'uuid/v1';
 
 // HEAD DATA
 export const headData = {
-  title: 'Cloud Architect', // e.g: 'Name | Developer'
+  title: 'AWS Consultant', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
   description: '', // e.g: Welcome to my website
 };
@@ -11,8 +11,8 @@ export const headData = {
 export const heroData = {
   title: 'Hi, my name is',
   name: 'Victor M',
-  subtitle: 'AWS Consultant',
-  cta: '',
+  subtitle: 'Independent AWS Consultant',
+  cta: 'Hire me!',
 };
 
 // ABOUT DATA
