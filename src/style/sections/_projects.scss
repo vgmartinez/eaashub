@@ -76,3 +76,22 @@
     }
   }
 }
+
+body.dark-mode #projects {
+  background-color: #1b2938;
+}
+
+body.dark-mode #projects .project-wrapper .section-title {
+  color: lightblue;
+}
+
+body.dark-mode #projects .project-wrapper {
+  h3 {
+    color: lightblue;
+  }
+  p {
+    color: lightblue;
+  }
+}
+
+

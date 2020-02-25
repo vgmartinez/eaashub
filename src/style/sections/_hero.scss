@@ -63,3 +63,11 @@
     }
   }
 }
+
+body.dark-mode #hero {
+  background-color: #1b2938;
+}
+
+body.dark-mode #hero .hero-title {
+  color: lightblue;
+}
