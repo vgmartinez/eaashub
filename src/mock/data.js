@@ -53,7 +53,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: 'eaashub@gmail.com',
+  email: 'vgmartinez.cu@gmail.com',
 };
 
 // FOOTER DATA
