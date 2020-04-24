@@ -24,10 +24,7 @@ const Contact = () => {
     fetch('/', {
       method: 'POST',
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      body: encode({
-        'form-name': form.getAttribute('name'),
-        ...state,
-      }),
+      body: new FormData(e.target),
     })
       .then(() => navigate(form.getAttribute('action')))
       .catch(error => alert(error));
