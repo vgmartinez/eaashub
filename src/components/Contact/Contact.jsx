@@ -51,12 +51,7 @@ class Contact extends React.Component {
                 action="/"
                 onSubmit={this.handleSubmit}
               >
-                <input
-                  type="hidden"
-                  name="form-name"
-                  value="contact"
-                  onChange={this.handleChange}
-                />
+                <input type="hidden" name="form-name" value="contact" />
                 <p>
                   <label>Your Name</label>
                 </p>
@@ -88,7 +83,12 @@ class Contact extends React.Component {
                 </p>
                 <p>
                   <label>
-                    <textarea name="message" style={{ width: '300px' }} rows="6" />
+                    <textarea
+                      name="message"
+                      style={{ width: '300px' }}
+                      rows="6"
+                      onChange={this.handleChange}
+                    />
                   </label>
                 </p>
                 <p>
