@@ -50,6 +50,7 @@ const Contact = () => {
               action="/"
               onSubmit={handleSubmit}
             >
+              <input type="hidden" name="form-name" value="contact" />
               <p>
                 <label>Your Name</label>
               </p>
