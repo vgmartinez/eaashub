@@ -25,6 +25,7 @@ class Contact extends React.Component {
   handleSubmit = e => {
     e.preventDefault();
     const form = e.target;
+    console.log({ 'form-name': 'contact', ...this.state });
     fetch('/', {
       method: 'POST',
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
@@ -50,13 +51,23 @@ class Contact extends React.Component {
                 action="/"
                 onSubmit={this.handleSubmit}
               >
-                <input type="hidden" name="form-name" value="contact" />
+                <input
+                  type="hidden"
+                  name="form-name"
+                  value="contact"
+                  onChange={this.handleChange}
+                />
                 <p>
                   <label>Your Name</label>
                 </p>
                 <p>
                   <label>
-                    <input type="text" name="name" style={{ width: '300px' }} />
+                    <input
+                      type="text"
+                      name="name"
+                      style={{ width: '300px' }}
+                      onChange={this.handleChange}
+                    />
                   </label>
                 </p>
                 <p>
@@ -64,7 +75,12 @@ class Contact extends React.Component {
                 </p>
                 <p>
                   <label>
-                    <input type="email" name="email" style={{ width: '300px' }} />
+                    <input
+                      type="email"
+                      name="email"
+                      style={{ width: '300px' }}
+                      onChange={this.handleChange}
+                    />
                   </label>
                 </p>
                 <p>
