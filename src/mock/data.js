@@ -29,22 +29,32 @@ export const aboutData = {
 export const projectsData = [
   {
     id: uuidv1(),
-    img: 'holisfy.png',
-    title: 'Holisfy',
-    info: 'A Platform made for Independent Healthcare Professionals',
-    info2: 'Holisfy will provide you the knowledge-based tools to help your patients holistically',
-    tags: '#aws #cognito  #amplify #appsync #graphql #elasticsearch #react',
-    url: 'https://holisfy.com',
-    repo: '', // if no repo, the button will not show up
-  },
-  {
-    id: uuidv1(),
     img: 'inflybo.png',
     title: 'Inflybo',
     info: 'A Platform made for VIP lounges management',
     info2: '',
     tags: '#aws #cognito #amplify #appsync #graphql #react',
     url: 'https://inflybo.com',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: uuidv1(),
+    img: 'awsstation.png',
+    title: 'AWS Station',
+    info: 'A useful AWS App in your hands!',
+    info2: '',
+    tags: '#aws #cognito #amplify #appsync #graphql #react-native',
+    url: 'https://awsstation.com',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: uuidv1(),
+    img: 'holisfy.png',
+    title: 'Holisfy (Failed)',
+    info: 'A Platform made for Independent Healthcare Professionals',
+    info2: 'Holisfy will provide you the knowledge-based tools to help your patients holistically',
+    tags: '#aws #cognito  #amplify #appsync #graphql #elasticsearch #react',
+    url: 'https://holisfy.com',
     repo: '', // if no repo, the button will not show up
   },
 ];
