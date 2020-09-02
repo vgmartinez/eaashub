@@ -32,7 +32,8 @@ export const projectsData = [
     img: 'inflybo.png',
     title: 'Inflybo',
     info: 'A Platform made for VIP lounges management',
-    info2: '',
+    info2:
+      'A real time overview of your lounges metrics. All organised in simple easy to use dashboards.',
     tags: '#aws #cognito #amplify #appsync #graphql #react',
     url: 'https://inflybo.com',
     repo: '', // if no repo, the button will not show up
@@ -42,7 +43,7 @@ export const projectsData = [
     img: 'awsstation.png',
     title: 'AWS Station',
     info: 'A useful AWS App in your hands!',
-    info2: '',
+    info2: 'Create useful Shortcuts with the most common Actions in your main AWS Resources.',
     tags: '#aws #cognito #amplify #appsync #graphql #react-native',
     url: 'https://awsstation.com',
     repo: '', // if no repo, the button will not show up
