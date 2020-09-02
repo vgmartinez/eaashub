@@ -10,14 +10,14 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: 'Hi, my name is',
-  name: 'Victor M',
-  subtitle: 'Independent AWS Consultant',
+  name: 'Victor',
+  subtitle: 'AWS Consultant | Indiehacker | #SoloFounder',
   cta: 'Hire me!',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.png',
+  img: 'victor.jpeg',
   paragraphOne:
     "I'm a Certified AWS Professional Architect specialized in designing and implementing complex Big Data & IoT solutions for different type of industries such as banking, pharma and analytics companies. These solutions are developed using the latest technologies in the market, e.g. AWS, Azure, Apache Spark, Docker, Ansible, Terraform.",
   paragraphTwo: '',
