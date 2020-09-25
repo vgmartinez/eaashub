@@ -33,7 +33,9 @@ const Services = () => {
                   Cloud Economy
                 </h3>
                 <div className="service-wrapper__info">
-                  <p className="service-wrapper__info-text">{servicesOne || ''}</p>
+                  <p className="service-wrapper__info-text" style={{ marginBottom: '30px' }}>
+                    {servicesOne || ''}
+                  </p>
                 </div>
               </Fade>
             </Col>
@@ -43,7 +45,9 @@ const Services = () => {
                   Architecture Design
                 </h3>
                 <div className="service-wrapper__info">
-                  <p className="service-wrapper__info-text">{servicesTwo || ''}</p>
+                  <p className="service-wrapper__info-text" style={{ marginBottom: '30px' }}>
+                    {servicesTwo || ''}
+                  </p>
                 </div>
               </Fade>
             </Col>
@@ -53,7 +57,9 @@ const Services = () => {
                   Bodyguard
                 </h3>
                 <div className="service-wrapper__info">
-                  <p className="service-wrapper__info-text">{servicesThree || ''}</p>
+                  <p className="service-wrapper__info-text" style={{ marginBottom: '30px' }}>
+                    {servicesThree || ''}
+                  </p>
                 </div>
               </Fade>
             </Col>
@@ -63,7 +69,9 @@ const Services = () => {
                   MVP
                 </h3>
                 <div className="service-wrapper__info">
-                  <p className="service-wrapper__info-text">{servicesFour || ''}</p>
+                  <p className="service-wrapper__info-text" style={{ marginBottom: '30px' }}>
+                    {servicesFour || ''}
+                  </p>
                 </div>
               </Fade>
             </Col>
