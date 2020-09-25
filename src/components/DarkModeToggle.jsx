@@ -8,7 +8,7 @@ const DarkModeToggle = () => {
 
   return (
     <div className="navbar">
-      <img src={Logo} alt="Logo" style={{ width: '10%', height: '5%' }} />
+      <img src={Logo} alt="Logo" style={{ width: '8%', height: '5%' }} />
       <div className="dark-mode-toggle" style={{ justifyContent: 'flex-end', margin: '10px' }}>
         <button type="button" onClick={darkMode.disable}>
           ☀
