@@ -35,7 +35,7 @@ module.exports = {
         short_name: `AWS Consultant`,
         start_url: `/`,
         background_color: `#fff`,
-        theme_color: `#02aab0`,
+        theme_color: `#e5ffeb`,
         display: `standalone`,
         icon: 'src/images/favicon.png',
       },
