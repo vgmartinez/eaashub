@@ -60,7 +60,7 @@ const Services = () => {
             <Col md={3} sm={12}>
               <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
                 <h3 style={{ fontWeight: 'bold', fontSize: '2,5rem', marginBottom: '10px' }}>
-                  MVP Creation
+                  MVP
                 </h3>
                 <div className="service-wrapper__info">
                   <p className="service-wrapper__info-text">{servicesFour || ''}</p>
