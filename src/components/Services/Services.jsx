@@ -30,7 +30,7 @@ const Services = () => {
             <Col md={3} sm={12}>
               <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
                 <h3 style={{ fontWeight: 'bold', fontSize: '2,5rem', marginBottom: '10px' }}>
-                  Cloud Economy
+                  Cloud Economics
                 </h3>
                 <div className="service-wrapper__info">
                   <p className="service-wrapper__info-text" style={{ marginBottom: '30px' }}>
