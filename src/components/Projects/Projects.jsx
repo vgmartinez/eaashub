@@ -27,7 +27,7 @@ const Projects = () => {
       <Container>
         <div className="project-wrapper">
           <Title title="Projects" />
-          <h3 className="project-wrapper__text-title">Total MMR: $720</h3>
+          <h3 className="project-wrapper__text-title">Total MMR: $750</h3>
           <br />
           <br />
           {projects.map(project => {
