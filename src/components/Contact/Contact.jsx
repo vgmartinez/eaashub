@@ -42,7 +42,7 @@ class Contact extends React.Component {
           <Title title="Contact" />
           <Fade bottom duration={1000} delay={800} distance="30px">
             <div className="contact-wrapper">
-              <p className="contact-wrapper__text">Would you like to work with me? Awesome!</p>
+              <p className="contact-wrapper__text">Would you like to contact with me? Awesome!</p>
               <form
                 name="contact"
                 method="POST"

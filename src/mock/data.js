@@ -9,10 +9,10 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: 'Hi, my name is',
-  name: 'Victor',
-  subtitle: 'AWS Consultant',
-  cta: 'Hire me!',
+  title: 'Always building something!',
+  name: '',
+  subtitle: '',
+  cta: 'Contact me!',
 };
 
 // ABOUT DATA
@@ -31,7 +31,7 @@ export const servicesData = {
 export const aboutData = {
   img: 'victor.jpeg',
   paragraphOne:
-    "I'm a Certified AWS Professional Architect specialized in designing and implementing complex Big Data & IoT solutions for different type of industries such as banking, pharma and analytics companies. These solutions are developed using the latest technologies in the market, e.g. AWS, Azure, Apache Spark, Docker, Ansible, Terraform.",
+    "Available soon, I am redefining myself, in the meantime you can see my profile on LinkedIn.",
   paragraphTwo: 'I am also running some personal projects that you can find here.',
   paragraphThree: '',
   resume: 'https://www.linkedin.com/in/vgmartinez/',
@@ -53,7 +53,7 @@ export const projectsData = [
   {
     id: uuidv1(),
     img: 'awsstation.png',
-    title: 'AWS Station',
+    title: 'AWS Station (Failed)',
     info: 'A useful AWS App in your hands!',
     info2: 'Create useful Shortcuts with the most common Actions in your main AWS Resources.',
     tags: '#aws #cognito #amplify #appsync #graphql #react-native',
