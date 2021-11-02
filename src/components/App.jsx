@@ -39,7 +39,6 @@ function App() {
     <PortfolioProvider value={{ hero, services, about, projects, contact, footer }}>
       <DarkModeToggle />
       <Hero />
-      <Services />
       <About />
       <Projects />
       <Contact />
