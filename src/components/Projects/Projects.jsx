@@ -27,7 +27,6 @@ const Projects = () => {
       <Container>
         <div className="project-wrapper">
           <Title title="Projects" />
-          <h3 className="project-wrapper__text-title">Total MMR: 1100€</h3>
           <br />
           <br />
           {projects.map(project => {

@@ -42,7 +42,7 @@ export const projectsData = [
   {
     id: uuidv1(),
     img: 'inflybo.png',
-    title: 'Inflybo',
+    title: 'Inflybo (Acquired)',
     info: 'All-in-one platform to manage your VIP Lounges',
     info2:
       'A fully customized platform with your brand, where you can manage the entire process in your lounges.',
